@@ -21,13 +21,13 @@
 // ** Configurações do MySQL - Você pode pegar estas informações
 // com o serviço de hospedagem ** //
 /** O nome do banco de dados do WordPress */
-define('DB_NAME', 'nome_do_banco_de_dados_aqui');
+define('DB_NAME', 'hq-ilegra');
 
 /** Usuário do banco de dados MySQL */
-define('DB_USER', 'nome_de_usuario_aqui');
+define('DB_USER', 'root');
 
 /** Senha do banco de dados MySQL */
-define('DB_PASSWORD', 'senha_aqui');
+define('DB_PASSWORD', '');
 
 /** Nome do host do MySQL */
 define('DB_HOST', 'localhost');
@@ -51,14 +51,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'coloque a sua frase única aqui');
-define('SECURE_AUTH_KEY',  'coloque a sua frase única aqui');
-define('LOGGED_IN_KEY',    'coloque a sua frase única aqui');
-define('NONCE_KEY',        'coloque a sua frase única aqui');
-define('AUTH_SALT',        'coloque a sua frase única aqui');
-define('SECURE_AUTH_SALT', 'coloque a sua frase única aqui');
-define('LOGGED_IN_SALT',   'coloque a sua frase única aqui');
-define('NONCE_SALT',       'coloque a sua frase única aqui');
+define('AUTH_KEY',         'QM7fe)8G]RzfB0_%Sn[<8|Bh4^bS1}]o*%Et8WBJ--Qyzj+H>#[=FMq#wH1a`6Tz');
+define('SECURE_AUTH_KEY',  ']g,cVeiJJyNt)T4M_]n+n<!IjjHd!F$y(KmW.^DgiCX&]Xsxx?G,_IJo.db:s|0`');
+define('LOGGED_IN_KEY',    '+xBgxc{8U]<+?[&1q8y$ANyGi>17]Tdp_jt0U}Bx n|zMi0gf52R?v.^}(S y4-`');
+define('NONCE_KEY',        '<j1:TyFQN^?;-?17Xa`1LY2weG[Yia}L9wy-+%|JY_@EMjilROZZr_EqOj7?wYNz');
+define('AUTH_SALT',        'ugq7fjR4>Zev1J5nm/($u}-vOuDihG8f$jvSwo%d#S++_k#mHmG(*v3+?Gk)?&u9');
+define('SECURE_AUTH_SALT', 'HfiNFJ-D@GN$}HO,zT,%|o[QC-_JkF:|>$W4vDZLj`_ VOI#%{|!D*FUft,iOif{');
+define('LOGGED_IN_SALT',   '9Vz$}Dy:<Tw>X><B -KL!22cv-%c4Oc8n2C=$YeqZb<|M.>_4(* +@=mQF;k#F]0');
+define('NONCE_SALT',       '.)ju>Kb}nD!A.RZo%Q4-N&-2RsD<]a-9DteAG-pwd>6)|FCS-gz OM!v+B3+<#{>');
 
 /**#@-*/
 
@@ -68,7 +68,7 @@ define('NONCE_SALT',       'coloque a sua frase única aqui');
  * Você pode ter várias instalações em um único banco de dados se você der
  * um prefixo único para cada um. Somente números, letras e sublinhados!
  */
-$table_prefix  = 'wp_';
+$table_prefix  = 'wp_hq-ilegra';
 
 /**
  * Para desenvolvedores: Modo de debug do WordPress.
