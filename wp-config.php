@@ -68,7 +68,7 @@ define('NONCE_SALT',       '.)ju>Kb}nD!A.RZo%Q4-N&-2RsD<]a-9DteAG-pwd>6)|FCS-gz 
  * Você pode ter várias instalações em um único banco de dados se você der
  * um prefixo único para cada um. Somente números, letras e sublinhados!
  */
-$table_prefix  = 'wp_hq-ilegra';
+$table_prefix  = 'wp_hq_ilegra_';
 
 /**
  * Para desenvolvedores: Modo de debug do WordPress.
