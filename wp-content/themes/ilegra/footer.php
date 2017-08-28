@@ -18,8 +18,7 @@
 				<div class="col-xs-12 col-md-12 center-md">
 					<div class="site-info">
 						<p><?php printf( esc_html__( 'Desenvolvido por %1$s.', 'Felipe' ), 'Felipe Almeida' ); ?></p>
-						<a href="mailto:faefelipe25@gmail.com">email</a>
-												
+						<p>faefelipe25@gmail.com</p>																		
 					</div>
 				</div>
 
