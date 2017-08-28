@@ -142,12 +142,4 @@ require get_template_directory() . '/inc/customizer.php';
  */
 require get_template_directory() . '/inc/jetpack.php';
 
-/**
- * Como Criamos o Arquivo woocommerce.php
- * Inserimos Suporte ao WooCommerce
- * Para sumir o aviso na página de Plugins
- */
-add_action( 'after_setup_theme', 'woocommerce_support' );
-function woocommerce_support() {
-    add_theme_support( 'woocommerce' );
-}
+

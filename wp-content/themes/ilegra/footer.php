@@ -9,15 +9,17 @@
 
 ?>
 
+		</div>
 	</div>
-
-	<footer id="colophon" class="site-footer" role="contentinfo">
+	<footer class="site-footer" role="contentinfo">
 		<div class="container-fluid site-container">
 			<div class="row">
 
-				<div class="col-xs-12">
+				<div class="col-xs-12 col-md-12 center-md">
 					<div class="site-info">
-						<?php printf( esc_html__( 'Feito por %1$s.', 'Felipe' ), 'Felipe' ); ?>
+						<p><?php printf( esc_html__( 'Desenvolvido por %1$s.', 'Felipe' ), 'Felipe Almeida' ); ?></p>
+						<a href="mailto:faefelipe25@gmail.com">email</a>
+												
 					</div>
 				</div>
 
