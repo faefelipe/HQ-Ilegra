@@ -148,11 +148,9 @@ function post_type_dc(){
 			'public' => true, 
 			'has_archive' => true, 
 			'supports' => array('title','editor','thumbnail'),
-			'rewrite' => array('slug' => 'dccomics'),
-			
+			'rewrite' => array('slug' => 'dccomics')							
 			)
 		);
 }
 add_action('init', post_type_dc);
-
-
+	
