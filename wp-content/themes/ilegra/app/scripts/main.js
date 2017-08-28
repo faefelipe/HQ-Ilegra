@@ -1,5 +1,5 @@
 $.ajax({
-	url:"http://gateway.marvel.com/v1/public/comics?ts=1&apikey=6c5e573716d0c0b265d780f37930ef08&hash=6ed7fc975858d8c20e9ccb887053ed6e",
+	url:"http://gateway.marvel.com/v1/public/creators/32/comics?ts=1&apikey=6c5e573716d0c0b265d780f37930ef08&hash=6ed7fc975858d8c20e9ccb887053ed6e",
 	type: "GET",
 	success: function(data){
 
@@ -11,7 +11,8 @@ $.ajax({
 			
 			title = data.data.results[i].title;
 			thumb = data.data.results[i].thumbnail;
-			description = data.data.results[i].description;
+            description = data.data.results[i].description;
+            
 
 			if (description == null) {
 				description = "Without description";
@@ -23,8 +24,8 @@ $.ajax({
                     "<img src='"+thumb.path+"/portrait_uncanny."+thumb.extension+"'/>" +
                 "</div>" +
                 "<div class='col-xs-12 col-sm-6 col-md-12 center-md'>" +
-                    "<h3>" +title+"</h3>" +
-                    "<p>"+description+"</p>" +
+                    "<h3>"+title+"</h3>" +
+                    "<p>"+description+"</p>" +                    
                 "</div>" +
             "</div>"
 		}

@@ -137,9 +137,22 @@ require get_template_directory() . '/inc/extras.php';
  */
 require get_template_directory() . '/inc/customizer.php';
 
-/**
- * Load Jetpack compatibility file.
- */
-require get_template_directory() . '/inc/jetpack.php';
+
+function post_type_dc(){
+	register_post_type( 'DC Comics', 
+		array(
+			'labels' => array(
+				'name' => __( 'Dc Comics' ),
+				'singular_name' =>  __( 'Dc')
+			), 
+			'public' => true, 
+			'has_archive' => true, 
+			'supports' => array('title','editor','thumbnail'),
+			'rewrite' => array('slug' => 'dccomics'),
+			
+			)
+		);
+}
+add_action('init', post_type_dc);
 
 
